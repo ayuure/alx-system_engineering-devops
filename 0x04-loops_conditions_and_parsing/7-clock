@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
-#prints best school 10 times
-hours=0
-while [ $hours -le 12 ]; do
-    minutes=1
-    while [ $minutes -le 59 ]; do
-        printf "%02d:%02d\n" $hours $minutes
-        ((minutes++))
+#print time
+hour=0
+while [ $hour -lt 12 ]; do
+    echo "Hour: $hour"
+    minute=1
+    while [ $minute -lt 60 ]; do
+        echo "$minute"
+        ((minute++))
     done
-    ((hours++))
+    ((hour++))
 done
