@@ -9,7 +9,7 @@ while [ $counter -le 20 ]; do
             ;;
         9)
             echo "9"
-            echo "9 bad luck from Japan"
+            echo "bad luck from Japan"
             ;;
         17)
             echo "17"
