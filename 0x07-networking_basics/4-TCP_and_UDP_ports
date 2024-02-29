@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#what is OSI and it's organization
+netstat -lp
