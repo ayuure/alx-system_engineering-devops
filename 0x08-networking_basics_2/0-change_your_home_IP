@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#Change your home IP
+new_localhost="127.0.0.2"
+new_facebook="8.8.8.8"
+cp /etc/hosts ~/newhost
+echo "$new_localhost    localhost" > ~/newhost
+echo "$new_facebook facebook.com" >> ~/newhost
+cp -f ~/newhost /etc/hosts
